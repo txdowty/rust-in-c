@@ -1,0 +1,13 @@
+[package]
+name = "rust-in-c"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_in_c"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+
+[build-dependencies]
+cbindgen = "0.29.0"
