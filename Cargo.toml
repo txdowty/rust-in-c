@@ -8,6 +8,7 @@ name = "rust_in_c"
 crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
+cargo-post = "0.1.7"
 
 [build-dependencies]
 cbindgen = "0.29.0"
